@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.latent</groupId>
     <artifactId>storm-rabbitmq</artifactId>
-    <version>1.1.3-SNAPSHOT</version>
+    <version>1.1.3</version>
     <packaging>jar</packaging>
     <name>storm-rabbitmq</name>
     <description>A library of tools for interacting with RabbitMQ from Storm.</description>
@@ -59,7 +58,7 @@
         <connection>scm:git:git@github.com:NotYoCheese/storm-rabbitmq.git</connection>
         <developerConnection>scm:git:git@github.com:NotYoCheese/storm-rabbitmq.git</developerConnection>
         <url>git@github.com:NotYoCheese/storm-rabbitmq.git</url>
-        <tag>HEAD</tag>
+        <tag>1.1.3</tag>
     </scm>
 
     <properties>
@@ -174,7 +173,7 @@
             <url>${nexus.snapshot.repository.url}</url>
         </repository>
         <!-- repository>
-            <snapshots/>
+            <snapshots />
             <id>clojars</id>
             <name>clojars</name>
             <url>http://mvnrepository.com/repos/clojars</url>
